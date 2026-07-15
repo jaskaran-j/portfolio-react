@@ -43,7 +43,7 @@ main div a:last-child {
   color: #58a6ff;
 }
 
-main div span {
+.tech-pill {
   display: inline-block;
   padding: 0.4rem 1rem;
   margin: 0.3rem;

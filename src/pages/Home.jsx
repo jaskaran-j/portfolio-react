@@ -20,7 +20,9 @@ function Home() {
         <h3>Tech Stack</h3>
         <div>
           {['Java', 'Python', 'SQL', 'HTML', 'CSS', 'JavaScript', 'React', 'AWS'].map(tech => (
-            <span key={tech}>{tech}</span>
+            <span key={tech} className="tech-pill">
+              {tech}
+            </span>
           ))}
         </div>
       </section>
