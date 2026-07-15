@@ -1,3 +1,4 @@
+import './Home.css'
 function Home() {
   return (
     <main>
@@ -15,7 +16,7 @@ function Home() {
         </div>
       </section>
 
-      <section>
+      <section style ={{ marginTop: '4rem' }}>
         <h3>Tech Stack</h3>
         <div>
           {['Java', 'Python', 'SQL', 'HTML', 'CSS', 'JavaScript', 'React', 'AWS'].map(tech => (

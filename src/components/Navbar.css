@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #0d0d0d;
+  border-bottom: 1px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #58a6ff;
+}
+
+nav a {
+  margin-left: 2rem;
+  font-size: 0.95rem;
+  color: #e8e8e8;
+}
+
+nav a:hover {
+  color: #58a6ff;
+}
